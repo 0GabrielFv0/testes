@@ -1,0 +1,89 @@
+body {
+  background-image: url('fundo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.banner {
+  background-color: #2ECC71;
+  padding: 10px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+}
+
+#secao-reciclagem {
+  text-align: center;
+  padding: 20px;
+}
+
+.container-reciclagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item-reciclagem {
+  flex-basis: 200px;
+  text-align: center;
+}
+
+.item-reciclagem a {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.item-reciclagem a:hover {
+  background-color: #45a049;
+  color: #ffffff;
+}
+
+.item-reciclagem img {
+  max-width: 100%;
+  height: auto;
+}
+
+.item-reciclagem p {
+  margin-top: 10px;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.footer a:hover {
+  background-color: #45a049;
+}
+
